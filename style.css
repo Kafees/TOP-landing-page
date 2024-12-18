@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    border: 0.5px dotted gray;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-style: italic;
+}
+
+.header-link {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header-links-list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+.content-top {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    gap: 100px;
+    background-color: #1f2937;
+    color: #F9FAF8;
+}
+
+.content-top-right {
+    max-width: 600px;
+}
+
+.content-top-left {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 600px;
+    gap: 10px;
+}
+
+.content-top-left h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+.content-top-left p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.content-top-left button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 5px;
+    width: 25%;
+    min-width: 100px;
+    height: 20%;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 900;
+}
