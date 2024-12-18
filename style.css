@@ -42,12 +42,18 @@ body {
     display: flex;
     justify-content: center;
     padding: 30px;
-    gap: 200px;
+    gap: 100px;
     background-color: #1f2937;
     color: #F9FAF8;
+    flex-shrink: 0;
 }
 
 .content-top-right {
+    max-width: 400px;
+}
+
+.image-placeholder {
+    width: 400px;
     max-width: 400px;
 }
 
@@ -173,7 +179,22 @@ body {
     background-color: #3882F6;
     color: #E5E7EB;
     font-size: 18px;
-    border: 1px solid #E5E7EB;
-    padding: 10px;
+    font-weight: 700;
+    border: 2px solid #E5E7EB;
+    padding: 5px 20px;
     border-radius: 5px;
+    width: 150px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+    background-color: #1f2937;
+}
+
+.footer-text {
+    font-size: 14px;
+    color: #E5E7EB;
 }
