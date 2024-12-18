@@ -123,3 +123,26 @@ body {
     border: 3px solid rgb(62, 165, 255);
     border-radius: 20px;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    min-height: 325px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 300px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1f2937;
+}
+
+.quote-author {
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 300px;
+}
